@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\TruClient5
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\manohar singh yadav\documents\vugen\scripts\truclient5\\logfile.log
+c:\users\manohar singh yadav\documents\vugen\scripts\truclient5\\combined_TruClient5.c
+c:\users\manohar singh yadav\documents\vugen\scripts\truclient5\\pre_cci.c
