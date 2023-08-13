@@ -1,0 +1,1 @@
+-usr "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1\WebHttpHtml1.usr" -compile_only -out "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1\" -drv_log_file "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1\mdrv.log" -cfg "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1\default.cfg" -product_name vugen

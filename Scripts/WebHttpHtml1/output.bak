@@ -1,0 +1,111 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 12-08-2023 17:24:36
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2023-08-12 09:24:36  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2023-08-12 17:24:36  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+Warning: Failed to get NV emulation handle.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): Notify: Transaction "1" started.
+Action.c(4): Warning: Failed to get NV emulation handle.
+Action.c(6): web_custom_request("web_custom_request1") started  	[MsgId: MMSG-26355]
+Action.c(6): t=3360ms: Connecting [0] to host 50.62.168.5:80  	[MsgId: MMSG-26000]
+Action.c(6): t=3619ms: Connected socket [0] from 192.168.0.128:2145 to 50.62.168.5:80 in 257 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=3619ms: 276-byte request headers for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     POST /calculator.asmx HTTP/1.1\r\n
+Action.c(6):     Content-Type: text/xml\r\n
+Action.c(6):     Cache-Control: no-cache\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.dneonline.com\r\n
+Action.c(6):     Content-Length: 291\r\n
+Action.c(6):     \r\n
+Action.c(6): t=3642ms: 291-byte request body for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="htt
+Action.c(6):     p://tempuri.org/">\r\n
+Action.c(6):        <soapenv:Header/>\r\n
+Action.c(6):        <soapenv:Body>\r\n
+Action.c(6):           <tem:Add>\r\n
+Action.c(6):              <tem:intA>3</tem:intA>\r\n
+Action.c(6):              <tem:intB>3</tem:intB>\r\n
+Action.c(6):           </tem:Add>\r\n
+Action.c(6):        </soapenv:Body>\r\n
+Action.c(6):     </soapenv:Envelope>
+Action.c(6): t=3935ms: 308-byte response headers for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: private, max-age=0\r\n
+Action.c(6):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Vary: Accept-Encoding\r\n
+Action.c(6):     Server: Microsoft-IIS/10.0\r\n
+Action.c(6):     X-AspNet-Version: 2.0.50727\r\n
+Action.c(6):     X-Powered-By: ASP.NET\r\n
+Action.c(6):     X-Powered-By-Plesk: PleskWin\r\n
+Action.c(6):     Date: Sat, 12 Aug 2023 09:24:38 GMT\r\n
+Action.c(6):     Content-Length: 348\r\n
+Action.c(6):     \r\n
+Action.c(6): t=3967ms: 348-byte ENCODED response body received for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6): t=3971ms: 325-byte DECODED response body for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(6):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(6):     www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>
+Action.c(6):     6</AddResult></AddResponse></soap:Body></soap:Envelope>
+Action.c(6): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://www.dneonline.com/calculator.asmx"  	[MsgId: MMSG-26547]
+Action.c(6): t=3992ms: Request done "http://www.dneonline.com/calculator.asmx"  	[MsgId: MMSG-26000]
+Action.c(6): web_custom_request("web_custom_request1") was successful, 348 body bytes, 308 header bytes  	[MsgId: MMSG-26386]
+Action.c(25): Notify: Transaction "1" ended with a "Pass" status (Duration: 2.2509 Wasted Time: 0.6391).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.
+t=5448ms: Closed connection [0] to www.dneonline.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]

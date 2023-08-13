@@ -1,0 +1,15 @@
+﻿[DATA_POINT]
+1="HTTP_200"
+2="tcp_connection_count"
+3="tcp_connect"
+4="tcp_shutdown"
+5="mic_recv"
+[END_TRANSACTION]
+1="vuser_init_Transaction"
+2="1"
+3="Action_Transaction"
+4="http://www.dneonline.com/calculator.asmx"
+5="web_custom_request1_Action_6"
+6="test"
+7="UnknownFunc_Action_6"
+8="vuser_end_Transaction"

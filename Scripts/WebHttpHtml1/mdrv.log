@@ -1,0 +1,8 @@
+Error: CCI compilation error -c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: type error in argument 1 to `web_custom_request'; found `int' expected `pointer to const char'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: syntax error; found `;' expecting `)'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: type error in argument 1 to `web_add_cookie'; found `int' expected `pointer to const char'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: syntax error; found `;' expecting `)'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: c:\\users\\manohar singh yadav\\documents\\vugen\\scripts\\webhttphtml1\\\\combined_WebHttpHtml1.c:6: error: 4 errors, not writing pre_cci.ci.	[MsgId: MERR-19799]
+Error: Vuser compilation failed. Please set CCIDebug to Off in CCI section of mdrv.dat file.	[MsgId: MERR-19797]
+Warning: Extension cciext.dll reports error -19797 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

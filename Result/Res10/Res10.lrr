@@ -1,0 +1,37 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=C:\Users\MANOHAR SINGH YADAV\Documents\Controller\scenario\Scenario1.lrs
+Subject=
+Result_file=C:\Users\MANOHAR SINGH YADAV\Documents\Result\Res10\Res10.lrr
+Description=
+ResultName=Res10
+Time_Zone=-28800
+Start_time=1691845087
+Daylight_Bias=0
+Stop_time=1691845148
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By command
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Group schedule for: webhttphtml1
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+[Groups_schedule]
+webhttphtml1=SG60;ST6_1E15;R300;SP6_1E30;
+webservices1=SG0;ST5_1E15;R300;SP5_1E30;
+[Scripts]
+WebServices1=C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1\WebServices1.usr
+WebHttpHtml1=C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1\WebHttpHtml1.usr
+[Scripts_types]
+WebServices1=Multi+WS_SOAP
+WebHttpHtml1=Multi+QTWeb

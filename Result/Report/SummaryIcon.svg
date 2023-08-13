@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="20px" width="20px" viewBox="0 0 20 20">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 22 22;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#231F20;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#6C6C6C;}
+	.st3{fill:#6C6C6C;}
+	.st4{fill:#676767;}
+</style>
+<path class="st4" d="M7,7H2V2h5 M9,0H0v9h9V0L9,0z"/>
+<path class="st4" d="M18,7h-5V2h5 M20,0h-9v9h9V0L20,0z"/>
+<path class="st4" d="M7,18H2v-5h5V18z M9,11H0v9h9V11L9,11z"/>
+<path class="st4" d="M18,18h-5v-5h5 M20,11h-9v9h9V11L20,11z"/>
+</svg>
+</svg>

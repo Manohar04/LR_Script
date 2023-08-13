@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebHttpHtml1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\logfile.log
+c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\combined_WebHttpHtml1.c
+c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c

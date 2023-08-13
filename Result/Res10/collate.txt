@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\MANOHAR SINGH YADAV\Documents\Controller\scenario\Scenario1.lrs
+Completed=0

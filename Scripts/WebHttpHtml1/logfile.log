@@ -1,0 +1,5 @@
+c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: type error in argument 1 to `web_custom_request'; found `int' expected `pointer to const char'
+c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: syntax error; found `;' expecting `)'
+c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: type error in argument 1 to `web_add_cookie'; found `int' expected `pointer to const char'
+c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:24: error: syntax error; found `;' expecting `)'
+c:\users\manohar singh yadav\documents\vugen\scripts\webhttphtml1\\pre_cci.c: c:\\users\\manohar singh yadav\\documents\\vugen\\scripts\\webhttphtml1\\\\combined_WebHttpHtml1.c:6: error: 4 errors, not writing pre_cci.ci
