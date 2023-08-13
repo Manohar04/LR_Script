@@ -1,0 +1,8 @@
+[parameter:Param_AddResult]
+CurrentValue=""
+IsEncrypt="NO"
+IsServer="NO"
+OriginalValue=""
+ParamName="Param_AddResult"
+Prompt=""
+Type="Output"

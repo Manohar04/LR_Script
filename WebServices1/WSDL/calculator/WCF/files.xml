@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<services>
+  <service>
+    <name>Calculator</name>
+    <id>0</id>
+    <ports>
+      <port>
+        <name>CalculatorSoap</name>
+        <id>1</id>
+        <bindingname>CalculatorSoap</bindingname>
+        <porttype>CalculatorSoap</porttype>
+      </port>
+      <port>
+        <name>CalculatorSoap12</name>
+        <id>1</id>
+        <bindingname>CalculatorSoap12</bindingname>
+        <porttype>CalculatorSoap</porttype>
+      </port>
+    </ports>
+  </service>
+</services>

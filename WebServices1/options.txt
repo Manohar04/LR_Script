@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ec:\users\manohar singh yadav\documents\vugen\scripts\webservices1\\logfile.log
+c:\users\manohar singh yadav\documents\vugen\scripts\webservices1\\combined_WebServices1.c
+c:\users\manohar singh yadav\documents\vugen\scripts\webservices1\\pre_cci.c

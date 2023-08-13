@@ -1,0 +1,4 @@
+Attempting to download 'http://www.dneonline.com/calculator.asmx?WSDL' using DiscoveryClientProtocol..
+DiscoveryClientProtocol found documents at the following URLs:
+- WSDL document at  
+http://www.dneonline.com/calculator.asmx?WSDL

@@ -1,0 +1,52 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 12-08-2023 16:43:23
+Starting action vuser_init.
+Warning: Failed to get NV emulation handle.
+Web Services replay version 2023.0.0 for Windows 10; Toolkit: "WCF"; build 506
+Runtime Settings file: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1\\default.cfg"
+Vuser directory: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1"
+Vuser output directory: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1\"
+LOCAL start date/time : 2023-08-12 16:43:23
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(3): Notify: Transaction "test" started.
+Action.c(3): Warning: Failed to get NV emulation handle.
+Action.c(6): Web service call "Add_101" started
+Action.c(6): t=3307ms: 308-byte response headers for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: private, max-age=0\r\n
+Action.c(6):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Vary: Accept-Encoding\r\n
+Action.c(6):     Server: Microsoft-IIS/10.0\r\n
+Action.c(6):     X-AspNet-Version: 2.0.50727\r\n
+Action.c(6):     X-Powered-By: ASP.NET\r\n
+Action.c(6):     X-Powered-By-Plesk: PleskWin\r\n
+Action.c(6):     Date: Sat, 12 Aug 2023 08:43:24 GMT\r\n
+Action.c(6):     Content-Length: 348\r\n
+Action.c(6):     \r\n
+Action.c(6): t=3317ms: 348-byte ENCODED response body received for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6): t=3320ms: 325-byte DECODED response body for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(6):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(6):     www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>
+Action.c(6):     5</AddResult></AddResponse></soap:Body></soap:Envelope>
+Action.c(6): Notify: Saving Parameter "Add_101_Response = <Add><AddResult>5</AddResult></Add>".
+Action.c(6): Notify: Saving Parameter "response = <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>5</AddResult></AddResponse></soap:Body></soap:Envelope>".
+Action.c(6): Notify: Saving Parameter "Param_AddResult = 5".
+Action.c(6): Web service call "Add_101" was successful
+Action.c(21): Notify: Parameter Substitution: parameter "Param_AddResult" =  "5"
+Action.c(21): Warning: "lr_xml_get_values" did not find any matches
+Action.c(24): Notify: Transaction "test" ended with a "Pass" status (Duration: 1.0286 Wasted Time: 0.4992).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.

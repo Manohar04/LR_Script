@@ -1,0 +1,227 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 12-08-2023 17:21:14
+Starting action vuser_init.
+Warning: Failed to get NV emulation handle.
+Web Services replay version 2023.0.0 for Windows 10; Toolkit: "WCF"; build 506
+Runtime Settings file: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1\\default.cfg"
+Vuser directory: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1"
+Vuser output directory: "C:\Users\MANOHAR SINGH YADAV\Documents\VuGen\Scripts\WebServices1\"
+LOCAL start date/time : 2023-08-12 17:21:14
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(3): Notify: Transaction "test" started.
+Action.c(3): Warning: Failed to get NV emulation handle.
+Action.c(6): Web service call "Add_101" started
+Action.c(6): t=7032ms: 308-byte response headers for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: private, max-age=0\r\n
+Action.c(6):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Vary: Accept-Encoding\r\n
+Action.c(6):     Server: Microsoft-IIS/10.0\r\n
+Action.c(6):     X-AspNet-Version: 2.0.50727\r\n
+Action.c(6):     X-Powered-By: ASP.NET\r\n
+Action.c(6):     X-Powered-By-Plesk: PleskWin\r\n
+Action.c(6):     Date: Sat, 12 Aug 2023 09:21:17 GMT\r\n
+Action.c(6):     Content-Length: 348\r\n
+Action.c(6):     \r\n
+Action.c(6): t=7057ms: 348-byte ENCODED response body received for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6): t=7065ms: 325-byte DECODED response body for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=1)
+Action.c(6):     <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(6):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(6):     www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>
+Action.c(6):     5</AddResult></AddResponse></soap:Body></soap:Envelope>
+Action.c(6): Notify: Saving Parameter "Add_101_Response = <Add><AddResult>5</AddResult></Add>".
+Action.c(6): Notify: Saving Parameter "response = <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>5</AddResult></AddResponse></soap:Body></soap:Envelope>".
+Action.c(6): Notify: Saving Parameter "Param_AddResult = 5".
+Action.c(6): Web service call "Add_101" was successful
+Action.c(21): Notify: Parameter Substitution: parameter "Param_AddResult" =  "5"
+Action.c(21): Warning: "lr_xml_get_values" did not find any matches
+Action.c(24): Notify: Transaction "test" ended with a "Pass" status (Duration: 3.2565 Wasted Time: 1.7610).
+Action.c(29): web_custom_request("web_custom_request1") started  	[MsgId: MMSG-26355]
+Action.c(29): Warning -26000: Request body (length=291) is not empty for HTTP Method=GET, for URL is "http://www.dneonline.com/calculator.asmx" (Internal ID=2)  	[MsgId: MWAR-26000]
+Action.c(29): t=8357ms: 310-byte response headers for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=2)
+Action.c(29):     HTTP/1.1 200 OK\r\n
+Action.c(29):     Cache-Control: private, max-age=0\r\n
+Action.c(29):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(29):     Content-Encoding: gzip\r\n
+Action.c(29):     Vary: Accept-Encoding\r\n
+Action.c(29):     Server: Microsoft-IIS/10.0\r\n
+Action.c(29):     X-AspNet-Version: 2.0.50727\r\n
+Action.c(29):     X-Powered-By: ASP.NET\r\n
+Action.c(29):     X-Powered-By-Plesk: PleskWin\r\n
+Action.c(29):     Date: Sat, 12 Aug 2023 09:21:18 GMT\r\n
+Action.c(29):     Content-Length: 5935\r\n
+Action.c(29):     \r\n
+Action.c(29): t=8366ms: 2610-byte ENCODED response body received for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=2)
+Action.c(29): t=8368ms: 2595-byte DECODED response body for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=2)
+Action.c(29):     \r\n
+Action.c(29):     \r\n
+Action.c(29):     <html>\r\n
+Action.c(29):     \r\n
+Action.c(29):         <head><link rel="alternate" type="text/xml" href="/calculator.asmx?disco" />\r\n
+Action.c(29):     \r\n
+Action.c(29):         <style type="text/css">\r\n
+Action.c(29):         \r\n
+Action.c(29):     \t\tBODY { color: #000000; background-color: white; font-family: Verdana; margin-left: 0px
+Action.c(29):     ; margin-top: 0px; }\r\n
+Action.c(29):     \t\t#content { margin-left: 30px; font-size: .70em; padding-bottom: 2em; }\r\n
+Action.c(29):     \t\tA:link { color: #336699; font-weight: bold; text-decoration: underline; }\r\n
+Action.c(29):     \t\tA:visited { color: #6699cc; font-weight: bold; text-decoration: underline; }\r\n
+Action.c(29):     \t\tA:active { color: #336699; font-weight: bold; text-decoration: underline; }\r\n
+Action.c(29):     \t\tA:hover { color: cc3300; font-weight: bold; text-decoration: underline; }\r\n
+Action.c(29):     \t\tP { color: #000000; margin-top: 0px; margin-bottom: 12px; font-family: Verdana; }\r\n
+Action.c(29):     \t\tpre { background-color: #e5e5cc; padding: 5px; font-family: Courier New; font-size: x-
+Action.c(29):     small; margin-top: -5px; border: 1px #f0f0e0 solid; }\r\n
+Action.c(29):     \t\ttd { color: #000000; font-family: Verdana; font-size: .7em; }\r\n
+Action.c(29):     \t\th2 { font-size: 1.5em; font-weight: bold; margin-top: 25px; margin-bottom: 10px; borde
+Action.c(29):     r-top: 1px solid #003366; margin-left: -15px; color: #003366; }\r\n
+Action.c(29):     \t\th3 { font-size: 1.1em; color: #000000; margin-left: -15px; margin-top: 10px; margin-bo
+Action.c(29):     ttom: 10px; }\r\n
+Action.c(29):     \t\tul { margin-top: 10px; margin-left: 20px; }\r\n
+Action.c(29):     \t\tol { margin-top: 10px; margin-left: 20px; }\r\n
+Action.c(29):     \t\tli { margin-top: 10px; color: #000000; }\r\n
+Action.c(29):     \t\tfont.value { color: darkblue; font: bold; }\r\n
+Action.c(29):     \t\tfont.key { color: darkgreen; font: bold; }\r\n
+Action.c(29):     \t\tfont.error { color: darkred; font: bold; }\r\n
+Action.c(29):     \t\t.heading1 { color: #ffffff; font-family: Tahoma; font-size: 26px; font-weight: normal;
+Action.c(29):      background-color: #003366; margin-top: 0px; margin-bottom: 0px; margin-left: -30px; paddi
+Action.c(29):     ng-top: 10px; padding-bottom: 3px; padding-left: 15px; width: 105%; }\r\n
+Action.c(29):     \t\t.button { background-color: #dcdcdc; font-family: Verdana; font-size: 1em; border-top:
+Action.c(29):      #cccccc 1px solid; border-bottom: #666666 1px solid; border-left: #cccccc 1px solid; bord
+Action.c(29):     er-right: #666666 1px solid; }\r\n
+Action.c(29):     \t\t.frmheader { color: #000000; background: #dcdcdc; font-family: Verdana; font-size: .7e
+Action.c(29):     m; font-weight: normal; border-bottom: 1px solid #dcdcdc; padding-top: 2px; padding-bottom
+Action.c(29):     : 2px; }\r\n
+Action.c(29):     \t\t.frmtext { font-family: Verdana; font-size: .7em; margin-top: 8px; margin-bottom: 0px;
+Action.c(29):      margin-left: 32px; }\r\n
+Action.c(29):     \t\t.frmInput { font-family: Verdana; font-size: 1em; }\r\n
+Action.c(29):     \t\t.intro { margin-left: -15px; }\r\n
+Action.c(29):                \r\n
+Action.c(29):         </style>\r\n
+Action.c(29):     \r\n
+Action.c(29):         <title>\r\n
+Action.c(29):     \tCalculator Web Service\r\n
+Action.c(29):     </title></head>\r\n
+Action.c(29):     \r\n
+Action.c(29):       <body>\r\n
+Action.c(29):     \r\n
+Action.c(29):         <div id="content">\r\n
+Action.c(29):     \r\n
+Action.c(29):           <p class="heading1">Calculator</p><br>\r\n
+Action.c(29):     \r\n
+Action.c(29):           \r\n
+Action.c(29):     \r\n
+Action.c(29):           <span>\r\n
+Action.c(29):     \r\n
+Action.c(29):               <p class="intro">The following operations are supported.  For a formal definitio
+Action.c(29):     n, p
+Action.c(29): t=8402ms: 3325-byte ENCODED response body received for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=2)
+Action.c(29): t=8403ms: 3317-byte DECODED response body for "http://www.dneonline.com/calculator.asmx" (RelFrameId=1, Internal ID=2)
+Action.c(29):     lease review the <a href="calculator.asmx?WSDL">Service Description</a>. </p>\r\n
+Action.c(29):               \r\n
+Action.c(29):               \r\n
+Action.c(29):                   <ul>\r\n
+Action.c(29):                 \r\n
+Action.c(29):                   <li>\r\n
+Action.c(29):                     <a href="calculator.asmx?op=Add">Add</a>\r\n
+Action.c(29):                     \r\n
+Action.c(29):                     <span>\r\n
+Action.c(29):                       <br>Adds two integers. This is a test WebService. \xC2\xA9DNE Online\r\n
+Action.c(29):                     </span>\r\n
+Action.c(29):                   </li>\r\n
+Action.c(29):                   <p>\r\n
+Action.c(29):                 \r\n
+Action.c(29):                   <li>\r\n
+Action.c(29):                     <a href="calculator.asmx?op=Divide">Divide</a>\r\n
+Action.c(29):                     \r\n
+Action.c(29):                     \r\n
+Action.c(29):                   </li>\r\n
+Action.c(29):                   <p>\r\n
+Action.c(29):                 \r\n
+Action.c(29):                   <li>\r\n
+Action.c(29):                     <a href="calculator.asmx?op=Multiply">Multiply</a>\r\n
+Action.c(29):                     \r\n
+Action.c(29):                     \r\n
+Action.c(29):                   </li>\r\n
+Action.c(29):                   <p>\r\n
+Action.c(29):                 \r\n
+Action.c(29):                   <li>\r\n
+Action.c(29):                     <a href="calculator.asmx?op=Subtract">Subtract</a>\r\n
+Action.c(29):                     \r\n
+Action.c(29):                     \r\n
+Action.c(29):                   </li>\r\n
+Action.c(29):                   <p>\r\n
+Action.c(29):                 \r\n
+Action.c(29):                   </ul>\r\n
+Action.c(29):                 \r\n
+Action.c(29):           </span>\r\n
+Action.c(29):     \r\n
+Action.c(29):           \r\n
+Action.c(29):           \r\n
+Action.c(29):     \r\n
+Action.c(29):         <span>\r\n
+Action.c(29):             \r\n
+Action.c(29):         </span>\r\n
+Action.c(29):         \r\n
+Action.c(29):           <span>\r\n
+Action.c(29):               <hr>\r\n
+Action.c(29):               <h3>This web service is using http://tempuri.org/ as its default namespace.</h3>
+Action.c(29):     \r\n
+Action.c(29):               <h3>Recommendation: Change the default namespace before the XML Web service is m
+Action.c(29):     ade public.</h3>\r\n
+Action.c(29):               <p class="intro">Each XML Web service needs a unique namespace in order for clie
+Action.c(29):     nt applications to distinguish it from other services on the Web. http://tempuri.org/ is a
+Action.c(29):     vailable for XML Web services that are under development, but published XML Web services s
+Action.c(29):     hould use a more permanent namespace.</p>\r\n
+Action.c(29):               <p class="intro">Your XML Web service should be identified by a namespace that y
+Action.c(29):     ou control. For example, you can use your company's Internet domain name as part of the na
+Action.c(29):     mespace. Although many XML Web service namespaces look like URLs, they need not point to a
+Action.c(29):     ctual resources on the Web. (XML Web service namespaces are URIs.)</p>\r\n
+Action.c(29):               <p class="intro">For XML Web services creating using ASP.NET, the default namesp
+Action.c(29):     ace can be changed using the WebService attribute's Namespace property. The WebService att
+Action.c(29):     ribute is an attribute applied to the class that contains the XML Web service methods. Bel
+Action.c(29):     ow is a code example that sets the namespace to "http://microsoft.com/webservices/":</p>\r
+Action.c(29):     \n
+Action.c(29):               <p class="intro">C#</p>\r\n
+Action.c(29):               <pre>[WebService(Namespace="http://microsoft.com/webservices/")]\r\n
+Action.c(29):     public class MyWebService {\r\n
+Action.c(29):         // implementation\r\n
+Action.c(29):     }</pre>\r\n
+Action.c(29):               <p class="intro">Visual Basic</p>\r\n
+Action.c(29):               <pre>&lt;WebService(Namespace:="http://microsoft.com/webservices/")&gt; Public C
+Action.c(29):     lass MyWebService\r\n
+Action.c(29):         ' implementation\r\n
+Action.c(29):     End Class</pre>\r\n
+Action.c(29):     \r\n
+Action.c(29):               <p class="intro">C++</p>\r\n
+Action.c(29):               <pre>[WebService(Namespace="http://microsoft.com/webservices/")]\r\n
+Action.c(29):     public ref class MyWebService {\r\n
+Action.c(29):         // implementation\r\n
+Action.c(29):     };</pre>\r\n
+Action.c(29):               <p class="intro">For more details on XML namespaces, see the W3C recommendation 
+Action.c(29):     on <a href="http://www.w3.org/TR/REC-xml-names/">Namespaces in XML</A>.</p>\r\n
+Action.c(29):               <p class="intro">For more details on WSDL, see the <a href="http://www.w3.org/TR
+Action.c(29):     /wsdl">WSDL Specification</a>.</p>\r\n
+Action.c(29):               <p class="intro">For more details on URIs, see <a href="http://www.ietf.org/rfc/
+Action.c(29):     rfc2396.txt">RFC 2396</a>.</p>\r\n
+Action.c(29):           </span>\r\n
+Action.c(29):     \r\n
+Action.c(29):           \r\n
+Action.c(29):     \r\n
+Action.c(29):         \r\n
+Action.c(29):       </body>\r\n
+Action.c(29):     </html>\r\n
+Action.c(29): web_custom_request("web_custom_request1") highest severity level was "warning", 5935 body bytes, 310 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.
